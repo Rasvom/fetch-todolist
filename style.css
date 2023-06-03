@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+.main{
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+}
+
+.list_item {
+    width: 300px;
+    display: flex;
+    background-color: bisque;
+    border: 1px solid red;
+    justify-content: space-between;
+    padding: 5px;
+}
+.remove-btn{
+    border: none;
+    background-color: transparent;
+}
+.remove-btn:hover{
+    color: red;
+}
